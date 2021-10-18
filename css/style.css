@@ -58,25 +58,19 @@ h2, h3, h4 {
     margin-block-end: 0em;
 }
 
-p {
-    font-size: 2%;
-}
-
 h2 {
-    line-height: 5em;
-    margin-top: -1%;
-    font-size: 0.1em;
+    line-height: 1em;
+    font-size: 1em;
 }
 
 h3 {
-    font-size: 0.1em;
+    font-size: 1em;
     color: red;  
     display: inline;
 }
 
 h4 {
-    font-size: 0.01em;
-    color: red;  
+    font-size: 1em;
     display: inline;
 }
 
@@ -449,26 +443,26 @@ img {
     margin-top: 5%;
     height: 10%;
     width: 14.89%;
-    font-size: 0.7em;
+    font-size: 1.8em;
     text-align: center;
     background-color: white;
 }
 
 
 .sale {
-    height: 4%;
+    height: 4.3%;
     width: 12%;
     background-color: red;
     color: white;
-    font-size: 5px;
+    font-size: 0.8em;
 }
 
 .eco {
-    height: 4%;
+    height: 4.3%;
     width: 20%;
     left: 14%;
     background-color: green;
-    font-size: 5px;
+    font-size: 0.8em;
     color: white;
     text-align: center;
 }
@@ -482,14 +476,45 @@ img {
 
 
 
-/* product */
+/* description */
 
 .box {
-    margin-top: -3%;
-    height: 20px;
-    background-color: rgb(224, 64, 64);
+    height: 5.5em;
 }
 
-strong {
-    font-size: 1%;
+.box h3:last-child{
+    font-size: 0.9em;
+    color: black;
+    text-decoration: line-through;
 }
+
+/* description */
+
+
+
+
+/* event */
+
+.favorite:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.favorite:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.second {
+    display: none;
+}
+
+.first:hover {
+    display: none;
+}
+
+.second:hover {
+    display: block;
+}
+
+/* event */
