@@ -6,13 +6,12 @@
 
 html {
     font-size: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .container {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
-    background-color: aqua;
 }
 
 
@@ -53,6 +52,34 @@ html {
     display: table;
     clear: both;
 }
+
+h2, h3, h4 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+p {
+    font-size: 2%;
+}
+
+h2 {
+    line-height: 5em;
+    margin-top: -1%;
+    font-size: 0.1em;
+}
+
+h3 {
+    font-size: 0.1em;
+    color: red;  
+    display: inline;
+}
+
+h4 {
+    font-size: 0.01em;
+    color: red;  
+    display: inline;
+}
+
 
 /* global */
 
@@ -345,7 +372,7 @@ html {
 }
 
 .bottom {
-    bottom: 0px;
+    bottom: 5%;
 }
 
 .top {
@@ -392,12 +419,12 @@ html {
 
 .row {
     width: 100%;
-    height: 25em;
+    height: 55%;
 }
 
 .column {
     display: inline-block;
-    height: 6em;
+    height: 55%;
     width: 32%;
 }
 
@@ -415,7 +442,54 @@ html {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+}
+
+.favorite {
+    margin-top: 5%;
+    height: 10%;
+    width: 14.89%;
+    font-size: 0.7em;
+    text-align: center;
+    background-color: white;
+}
+
+
+.sale {
+    height: 4%;
+    width: 12%;
+    background-color: red;
+    color: white;
+    font-size: 5px;
+}
+
+.eco {
+    height: 4%;
+    width: 20%;
+    left: 14%;
+    background-color: green;
+    font-size: 5px;
+    color: white;
+    text-align: center;
+}
+
+.row:last-child .column:last-child .eco{
+    left: 0px;
 }
 
 /* column */
+
+
+
+
+/* product */
+
+.box {
+    margin-top: -3%;
+    height: 20px;
+    background-color: rgb(224, 64, 64);
+}
+
+strong {
+    font-size: 1%;
+}
