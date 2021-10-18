@@ -437,6 +437,7 @@ h4 {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 .favorite {
@@ -482,7 +483,7 @@ img {
     height: 5.5em;
 }
 
-.box h3:last-child{
+.box h3.mr-1 + h3{
     font-size: 0.9em;
     color: black;
     text-decoration: line-through;
@@ -505,16 +506,17 @@ img {
     cursor: pointer;
 }
 
-.second {
+.image img:last-child{
     display: none;
 }
 
-.first:hover {
-    display: none;
+.image:hover img:first-child{
+    display:none;
 }
 
-.second:hover {
-    display: block;
+.image:hover img:last-child{
+    display:inline-block;
 }
+
 
 /* event */
